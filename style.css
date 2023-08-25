@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+body {
+    /* background-color: grey; */
+    background-image: url('https://img.freepik.com/premium-photo/wallpaper-tropical-plant-with-green-leaves_148840-1679.jpg?w=2000');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 625px;
+}
+
+#content {
+    height: 400px;
+    width: 320px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 8px;
+    opacity: 0.9;
+}
+
+.box {
+    height: 40px;
+    width: 210px;
+    border: none;
+    border-bottom: 1px solid black;
+    text-align: start;
+    padding-left: 8px;
+    color: black;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.box :hover {
+    border: none;
+}
+
+.gen {
+    font-size: 18px;
+    margin-top: 8px;
+    color: rgb(87, 87, 87);
+}
+
+.calc {
+    height: 40px;
+    width: 216px;
+    border: none;
+    border: 1px solid black;
+    text-align: start;
+    padding-left: 8px;
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: white;
+    color: gray;
+    margin-top: 6px;
+}
+
+.calc:hover {
+    background-color: rgb(9, 172, 9);
+    color: white;
+}
+
+.calcu {
+    height: 40px;
+    width: 216px;
+    border: none;
+    border: 1px solid black;
+    text-align: start;
+    padding-left: 8px;
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: white;
+    color: gray;
+    margin-top: 5px;
+    
+}
+
+.calcu:hover {
+    background-color: rgb(4, 61, 216);
+    color: white;
+}
+
+h1 {
+    font-size: 30px;
+    margin-top: -10px;
+}
+
+#reset {
+    margin-top: 6px;
+}
+
+#submit {
+    margin-top: 6px;
+}
+
+#result {
+    height: 20px;
+    width: 216px;
+    /* background-color: rgb(185, 19, 19); */
+    margin-top: 17px;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+}
